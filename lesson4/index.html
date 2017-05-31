@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="lesson4.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Калькулятор</h2>
+    <input type="number" id='arg1' placeholder="введите первое число" value="0">
+    <input type="number" id='arg2' placeholder="введите второе число" value="0">
+    <button id='sum' onclick="sum()">Сумма</button>
+    <button id='dif' onclick="dif()">Разность</button>
+    <button id='mul' onclick="mul()">Умножение</button>
+    <button id='div' onclick="div()">Деление</button>
+    <p id='result'></p>
+    <hr>
+    <h2>Проверка естественного числа</h2>
+    <input type="number" id="enterNum" placeholder="Введите число для проверки" value="0">
+    <button id='buttonForTest' onclick="naturalNum()">Проверить</button>
+    <p id="placeForResult"></p>
+    <hr>
+    <h2>Генератор паролей</h2>
+    <button id='buttonForGeneratePass' onclick='passGenerate()'>Сгенерировать</button>
+    <input type="text" id='resultPass' value='123'>
+    <p id='resultPass1'></p>
+    <hr>
+    <h2>Последняя буква</h2>  
+    <input type="text" id='enterUserWord'>  
+    <button id='buttonLastSign' onclick='lastSign()'>Сделать последнюю букву заглавной</button>
+    <p id="returnWord"></p>
+    <hr>
+    <h2>Camel Case</h2>
+    <input type="text" id="enterCamelCaseText">
+    <button id="buttonCamelCase" onclick="CamelCaseText()">Преобразовать в CamelCase текст</button>
+    <p id="returnCamelCaseText"></p>
+    
+</body>
+</html>
